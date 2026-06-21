@@ -1,0 +1,68 @@
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.env
+
+# Security and credentials
+*.pem
+*.key
+*.pkcs12
+*.pfx
+id_rsa
+secret.json
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Python build and distribution
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+.Python
+
+# Python cache
+__pycache__/
+pycache/
+*.py[cod]
+*$py.class
+pip-log.txt
+pip-delete-this-directory.txt
+.cfg
+
+# IDE and Editor
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+.history/
+*.code-workspace
+
+# OS specific
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.lnk

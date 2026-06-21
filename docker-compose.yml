@@ -1,0 +1,26 @@
+version: '3.8'
+
+services:
+  airflow-mcp:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: airflow-mcp-stdio
+    environment:
+      AIRFLOW_URL: ${AIRFLOW_URL}
+      AIRFLOW_USERNAME: ${AIRFLOW_USERNAME}
+      AIRFLOW_PASSWORD: ${AIRFLOW_PASSWORD}
+      PYTHONUNBUFFERED: 1
+    volumes:
+      - .:/app
+    restart: unless-stopped
+    networks:
+      - airflow-net
+    labels:
+      - "com.example.description=Airflow MCP Monitor Server (Stdio Transport)"
+    stdin_open: true
+    tty: true
+
+networks:
+  airflow-net:
+    driver: bridge
