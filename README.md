@@ -63,10 +63,6 @@ AIRFLOW_USERNAME=
 AIRFLOW_PASSWORD=
 ```
 
-## MCP Server Demo with Claude Desktop
-
-<img width="1156" height="761" alt="image" src="https://github.com/user-attachments/assets/cf311245-868c-4b98-8d00-59fe66ffef62" />
-
 ## Usage
 
 ### Local Execution
