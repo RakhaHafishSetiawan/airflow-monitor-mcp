@@ -84,6 +84,14 @@ The containerized MCP server will initialize and be ready to accept stdio connec
 docker-compose logs -f
 ```
 
+## MCP Server Demo with Claude Desktop
+
+
+
+https://github.com/user-attachments/assets/52e9249e-df37-4826-9d7e-3d226e9c471a
+
+
+
 ## API Tools
 
 All tools are **READ-ONLY** monitoring operations:
